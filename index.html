@@ -83,7 +83,7 @@
        <div class="container">
            <span class="logo"></span>
 		   <span class="donate">
-		   	<button id='donate-btn'>Donează</button>
+			   	<button class='donate-btn'>Donează</button>
 		   </span>
        </div>
     </header>
@@ -92,27 +92,25 @@
         <div class="container">
             <div class="flex-container">
                 <div class="flex-item">
-                    <h1>N-ai cu cine vota la parlamentare?</h1>
-                    <p class="intro">Am început strângerea de semnături pentru ca Uniunea Salvați România (USR) să poată candida la <strong>alegerile parlamentare din 11 decembrie 2016.</strong>
+                    <h1>Ai cu cine vota la parlamentare!</h1>
+                    <p class="intro">Am încheiat strângerea de semnături pentru ca Uniunea Salvați România (USR) să poată candida la <strong>alegerile parlamentare din 11 decembrie 2016.</strong>
                         </p>
-                    <p class="intro">Nu le cumpărăm și nu le falsificăm, <strong>ci le strângem pe bune împreună cu tine!</strong></p>
-                    <p><a class="signup-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSehVISYCQOwpUDJ6Z20pNcfQ8C464Hi1TlraEkBO2Lby-VDcw/viewform" target="_blank"><i class="downlad-ico"></i>Înscrie-te</a></p>
-                    <p><a class="download-btn" href="http://usb.ro/wp-content/uploads/2016/10/Formular-semnaturi-alegeri-parlamentare_2016-USR.pdf" target="_blank"><i class="downlad-ico"></i>Descarcă formularul</a></p>
+                    <p class="intro">Nu le-am cumpărat și nu le-am falsificat, <strong>ci le-am strâns pe bune împreună cu tine!</strong></p>
+                    <p>
+						<a class="signup-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSehVISYCQOwpUDJ6Z20pNcfQ8C464Hi1TlraEkBO2Lby-VDcw/viewform" target="_blank">
+							<i class="downlad-ico"></i>
+							Înscrie-te
+						</a>
+						<button class='donate-btn'>Donează</button>
+					</p>
+
                 </div>
                 <div class="flex-item counter">
-                    <p>
-                        <span id="days" class="days"></span>
-                        zile rămase</p>
-                    <p>
-                        <span class="signatures">19.541/10.000</span>
-                        semnături necesare în Cluj
+                        <span class="signatures">26.178/10.000</span>
+                        semnături strânse în Cluj
                     </p>
                     <span class="signatures-loader"><span></span></span>
-                    <p class="announcement">
-                        <span>Bulevardul Eroilor, peste drum de clopot<br>până pe 24 octombrie (inclusiv)</span>
-
-
-                    </p>
+					<p class="announcement">Vă mulțumim pentru fiecare în parte.</p>
                 </div>
             </div>
         </div>
@@ -162,9 +160,9 @@
             <div class="container">
                 <div class="flex-container">
                     <div class="flex-item">
-                        <h1>Diversifică-ți opțiunea de vot cu o semnătură.
-                            Fă loc în Parlament pentru oamenii în care crezi.
-                            În sfârșit, ai cu cine!</h1>
+							<h1>Cu o semnătură, ai diverisificat opțiunile de vot a românilor.
+								În sfârșit, ai cu cine!
+							</h1>
                     </div>
 
                     <div class="flex-item">
@@ -180,14 +178,14 @@
     </footer>
 	<script type="text/javascript">
 	window.g2_finance_params = {
-		btnDonate: $('#donate-btn'),
+		btnDonate: $('.donate-btn'),
 		lblDonationDisclaimer: $('#donation-disclaimner'),
 		host: $('#donation-context'),
 		reportProcessHandler: function() {},
 		autoLoadDonationForm: false
 	};
 
-	$('#donate-btn').click(function(e) {
+	$('.donate-btn').click(function(e) {
 		e.preventDefault();
 	});
 	</script>

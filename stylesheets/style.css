@@ -273,7 +273,7 @@ img {
   color: #fff;
 }
 /* line 143, ../sass/partials/_common.scss */
-.download-btn:hover, .signup-btn:hover, #donate-btn:hover {
+.download-btn:hover, .signup-btn:hover, .donate-btn:hover {
   background: none;
   border: 2px solid #fff;
   text-decoration: none;
@@ -458,6 +458,7 @@ header .logo {
 .steps {
   padding: 90px 0;
   background: #fff;
+  display: none;
 }
 @media (max-width: 767px) {
   /* line 148, ../sass/style.scss */
@@ -738,7 +739,7 @@ header .logo {
 	display: inline-block;
 }
 
-#donate-btn {
+.donate-btn {
   color: #fff;
   font-size: 24px;
   font-family: 'GuardianSans_SemiBold';
