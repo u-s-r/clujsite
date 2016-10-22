@@ -199,6 +199,25 @@ img {
 
 /* line 89, ../sass/partials/_common.scss */
 .download-btn {
+  margin-top: 5px;
+  color: #fff;
+  font-size: 24px;
+  font-family: 'GuardianSans_SemiBold';
+  height: 65px;
+  line-height: 61px;
+  background: #FE555B;
+  border: 2px solid #FE555B;
+  display: inline-block;
+  padding: 0 35px;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+
+.signup-btn {
   margin-top: 60px;
   color: #fff;
   font-size: 24px;
@@ -254,7 +273,7 @@ img {
   color: #fff;
 }
 /* line 143, ../sass/partials/_common.scss */
-.download-btn:hover {
+.download-btn:hover, .signup-btn:hover, #donate-btn:hover {
   background: none;
   border: 2px solid #fff;
   text-decoration: none;
@@ -274,7 +293,7 @@ header {
 }
 /* line 7, ../sass/partials/_header.scss */
 header .logo {
-  display: block;
+  display: inline-block;
   width: 134px;
   height: 105px;
   background: url("../images/logo.svg") no-repeat center;
@@ -707,4 +726,32 @@ header .logo {
     font-size: 26px;
     line-height: 36px;
   }
+}
+
+#donation-context {
+	width: 800px;
+}
+
+.donate {
+	float: right;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+#donate-btn {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'GuardianSans_SemiBold';
+  height: 65px;
+  line-height: 61px;
+  background: #FE555B;
+  border: 2px solid #FE555B;
+  display: inline-block;
+  padding: 0 35px;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
 }
