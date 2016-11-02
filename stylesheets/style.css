@@ -287,22 +287,22 @@ img {
 
 /* line 1, ../sass/partials/_header.scss */
 header {
-  padding: 50px 0;
+  padding: 35px 0;
   z-index: 1;
   position: relative;
 }
 /* line 7, ../sass/partials/_header.scss */
 header .logo {
   display: inline-block;
-  width: 134px;
-  height: 105px;
-  background: url("../images/logo.svg") no-repeat center;
-  background-size: cover;
+  width: 108px;
+  height: 135px;
+  background: url("../images/logo.png") no-repeat center;
+  background-size: contain;
 }
 @media (max-width: 767px) {
   /* line 1, ../sass/partials/_header.scss */
   header {
-    padding: 20px 0;
+    padding: 5px 0;
   }
 }
 
@@ -310,16 +310,16 @@ header .logo {
 .hero {
   background: url("../images/herp-bg.jpg") no-repeat center;
   background-size: cover;
-  padding: 245px 0 80px 0;
+  padding: 230px 0 80px 0;
   color: #fff;
-  margin-top: -205px;
+  margin-top: -220px;
   z-index: 0;
 }
 @media (max-width: 767px) {
   /* line 8, ../sass/style.scss */
   .hero {
-    margin-top: -145px;
-    padding: 175px 0 80px 0;
+    margin-top: -160px;
+    padding: 160px 0 80px 0;
   }
 }
 /* line 28, ../sass/style.scss */
@@ -737,6 +737,11 @@ header .logo {
 	float: right;
 	margin-right: 20px;
 	display: inline-block;
+}
+@media(max-width: 767px) {
+  .donate {
+    margin-top:15px;
+  }
 }
 
 .donate-btn {
