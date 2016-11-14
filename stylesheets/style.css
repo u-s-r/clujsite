@@ -736,7 +736,7 @@ header .logo {
 .donate {
 	float: right;
 	margin-right: 20px;
-	display: inline-block;
+	display: none;
 }
 @media(max-width: 767px) {
   .donate {
@@ -752,7 +752,7 @@ header .logo {
   line-height: 61px;
   background: #FE555B;
   border: 2px solid #FE555B;
-  display: inline-block;
+  /*display: inline-block;*/
   padding: 0 35px;
   border-radius: 100px;
   -moz-border-radius: 100px;
@@ -760,4 +760,5 @@ header .logo {
   transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
+  display: none;
 }
